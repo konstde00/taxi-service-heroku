@@ -7,7 +7,7 @@ button {
     border-radius: 50px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
-    background-image: linear-gradient(to right, #fffacd 0%, #ffff66 51%, #f0e130 100%);
+    background-image: linear-gradient(to right, white 0%, #ffff66 51%, #FDDA0D 100%);
     background-size: 200% auto;
     box-shadow: 0 0 20px rgba(0, 0, 0, .1);
     transition: .2s;
