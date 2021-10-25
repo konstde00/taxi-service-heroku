@@ -7,7 +7,7 @@
 <%@include file='/WEB-INF/views/head.jsp'%>
 <html>
 <head>
-    <title>Sign in</title>
+    <title>Log in</title>
 </head>
 <body>
 <h4 style="color: red">${errorMsg}</h4>
@@ -17,7 +17,7 @@
     <input type="text" name="login"><br><br>
     <label>Please enter your password:</label><br>
     <input type="text" name="password"><br><br>
-    <button type="submit">Sign in</button>
+    <button type="submit">Log in</button>
 </form>
 <form class="login" action="${pageContext.request.contextPath}/drivers/add">
     <button>Register</button>
