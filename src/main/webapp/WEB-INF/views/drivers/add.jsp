@@ -1,12 +1,19 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <style>
-    <%@include file='/WEB-INF/views/css/table_dark.css' %>
+    <%@include file='/WEB-INF/views/css/common_style.css' %>
+    <%@include file='/WEB-INF/views/css/table_style.css' %>
+    <%@include file='/WEB-INF/views/css/button.css' %>
 </style>
+<%@include file='/WEB-INF/views/head.jsp'%>
 <html>
 <head>
     <title>Register</title>
 </head>
+<head>
+    <title>All drivers</title>
+</head>
+
 <body>
 <form method="post" id="driver" action="${pageContext.request.contextPath}/drivers/add"></form>
 <h1 class="table_dark">Create your driver's account:</h1>
@@ -16,7 +23,7 @@
         <th>License number</th>
         <th>Login</th>
         <th>Password</th>
-        <th>Add</th>
+        <th>Register</th>
     </tr>
     <tr>
         <td>
@@ -37,7 +44,14 @@
     </tr>
 </table>
 <br>
+
+<form action="/index" style="float: left">
+    <button>Back to main</button>
+</form>
+<form action="/logout" style="float: right">
+    <button>Logout</button>
+</form>
+
 <h4 style="color:red">${errorMsg}</h4>
-<%@include file="../logout.jsp"%>
 </body>
 </html>

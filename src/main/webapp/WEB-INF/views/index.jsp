@@ -1,17 +1,20 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <style>
-    <%@include file='/WEB-INF/views/css/table_dark.css' %>
+    <%@include file='/WEB-INF/views/css/common_style.css' %>
+    <%@include file='/WEB-INF/views/css/index_style.css' %>
+    <%@include file='/WEB-INF/views/css/button.css' %>
+
 </style>
+<%@include file='/WEB-INF/views/head.jsp'%>
 <html>
 <head>
-    <title>My team</title>
+    <title>taxi-service</title>
 </head>
 <body>
 <form method="post" id="redirect"></form>
-<h1 class="table_dark">Hello, mates</h1>
-<table class="table_dark">
+<table class="table_main">
     <tr>
-        <th>Redirect to</th>
+        <th><h1>Redirect to</h1></th>
     </tr>
     <tr><td><a href="${pageContext.request.contextPath}/drivers/">Display All Drivers</a></td></tr>
     <tr><td><a href="${pageContext.request.contextPath}/cars/">Display All Cars</a></td></tr>
@@ -21,8 +24,9 @@
     <tr><td><a href="${pageContext.request.contextPath}/manufacturers/add">Create new Manufacturer</a></td></tr>
     <tr><td><a href="${pageContext.request.contextPath}/cars/drivers/add">Add Driver to Car</a></td></tr>
     <tr><td><a href="${pageContext.request.contextPath}/drivers/cars">Display all cars for driver</a></td></tr>
-    <tr><td><a href="${pageContext.request.contextPath}/logout">Logout</a></td></tr>
 </table>
-<%@include file="logout.jsp"%>
+<form class="logout" action="/logout">
+    <button>Logout</button>
+</form>
 </body>
 </html>

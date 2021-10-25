@@ -1,20 +1,27 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <style>
-    <%@include file='/WEB-INF/views/css/table_dark.css' %>
+    <%@include file='/WEB-INF/views/css/common_style.css' %>
+    <%@include file='/WEB-INF/views/css/table_style.css' %>
+    <%@include file='/WEB-INF/views/css/button.css' %>
 </style>
+<%@include file='/WEB-INF/views/head.jsp'%>
 <html>
 <head>
     <title>Manufacturers</title>
 </head>
+<head>
+    <title>All drivers</title>
+</head>
+
 <body>
 <form method="post" id="manufacturer" action="${pageContext.request.contextPath}/manufacturers/add"></form>
-<h1 class="table_dark">Add manufacturer:</h1>
+<h1 class="table_dark">Create manufacturer:</h1>
 <table border="1" class="table_dark">
     <tr>
         <th>Name</th>
         <th>Country</th>
-        <th>Add</th>
+        <th>Create</th>
     </tr>
     <tr>
         <td>
@@ -28,6 +35,13 @@
         </td>
     </tr>
 </table>
-<%@include file="../logout.jsp"%>
+
+<form action="/index" style="float: left">
+    <button>Back to main</button>
+</form>
+<form action="/logout" style="float: right">
+    <button>Logout</button>
+</form>
+
 </body>
 </html>
