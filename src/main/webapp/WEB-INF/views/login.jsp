@@ -7,7 +7,7 @@
 <%@include file='/WEB-INF/views/head.jsp'%>
 <html>
 <head>
-    <title>Sing in</title>
+    <title>Sign in</title>
 </head>
 <body>
 <h4 style="color: red">${errorMsg}</h4>
