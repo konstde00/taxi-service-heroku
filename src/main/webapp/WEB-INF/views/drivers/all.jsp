@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>All drivers</title>
+    <link rel="SHORTCUT ICON" href="../compass.ico?" type="image/x-icon" />
 </head>
 
 <body>

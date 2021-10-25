@@ -3,12 +3,12 @@
     <%@include file='/WEB-INF/views/css/common_style.css' %>
     <%@include file='/WEB-INF/views/css/index_style.css' %>
     <%@include file='/WEB-INF/views/css/button.css' %>
-
 </style>
 <%@include file='/WEB-INF/views/head.jsp'%>
 <html>
 <head>
     <title>taxi-service</title>
+    <link rel="SHORTCUT ICON" href="compass.ico?" type="image/x-icon" />
 </head>
 <body>
 <form method="post" id="redirect"></form>

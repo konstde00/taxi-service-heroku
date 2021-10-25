@@ -10,6 +10,7 @@
 
 <head>
     <title>Add driver to car</title>
+    <link rel="SHORTCUT ICON" href="../../compass.ico?" type="image/x-icon" />
 </head>
 
 <body>

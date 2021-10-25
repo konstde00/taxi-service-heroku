@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>Add car</title>
+    <link rel="SHORTCUT ICON" href="../compass.ico?" type="image/x-icon" />
 </head>
 <body>
 <form method="post" id="car" action="${pageContext.request.contextPath}/cars/add"></form>

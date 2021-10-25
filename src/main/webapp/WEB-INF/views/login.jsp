@@ -8,6 +8,7 @@
 <html>
 <head>
     <title>Sign in</title>
+    <link rel="SHORTCUT ICON" href="compass.ico?" type="image/x-icon" />
 </head>
 <body>
 <h4 style="color: red">${errorMsg}</h4>
