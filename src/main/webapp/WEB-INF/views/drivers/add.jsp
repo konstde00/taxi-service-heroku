@@ -46,10 +46,7 @@
 <br>
 
 <form action="/index" style="float: left">
-    <button>Back to main</button>
-</form>
-<form action="/logout" style="float: right">
-    <button>Logout</button>
+    <button>Back to sign in</button>
 </form>
 
 <h4 style="color:red">${errorMsg}</h4>
