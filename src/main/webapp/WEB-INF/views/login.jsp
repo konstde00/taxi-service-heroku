@@ -12,7 +12,7 @@
 <body>
 <h4 style="color: red">${errorMsg}</h4>
 <form class="login" class="login" method="post" action="${pageContext.request.contextPath}/login">
-    <h2>Sing in</h2>
+    <h2>Log in</h2>
     <label >Please enter your login:</label><br>
     <input type="text" name="login"><br><br>
     <label>Please enter your password:</label><br>
